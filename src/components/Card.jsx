@@ -1,6 +1,7 @@
 export function Card() {
     return (
        <section>
+        
         <article>
             <h2>01</h2>
             <h3>Reviving Retro PCs</h3>

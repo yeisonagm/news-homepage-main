@@ -7,7 +7,9 @@ export function Content({ title, text }) {
                 <h1>{title}</h1>
                 <p>{text}</p>
             </article>
-            <button>Read more</button>
+            <button className="bg-red-500 px-6 py-3">
+                <strong className="text-white">Read more</strong>
+            </button>
         </section>
     );
 }
